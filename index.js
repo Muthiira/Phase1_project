@@ -36,3 +36,14 @@ document.getElementById('fact-form').addEventListener('submit', event => {
     document.getElementById('Fact-list').innerHTML += `<li>${data.comment}</li>`;
     document.getElementById("fact-form").reset();
 })
+
+//click event listener
+document.getElementById('like-button').addEventListener('click', likeAdd)
+getImage();
+
+//dom content loaded
+document.addEventListener("DOMContentLoaded", () => {
+    console.log('Content has loaded');
+    getImage();});
+
+// 
