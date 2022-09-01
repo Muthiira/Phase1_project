@@ -23,3 +23,13 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+.image-card {
+	width: 500px;
+	border: 1px solid black;
+	border-radius: 4px;
+	text-align: left;
+	background-color: rgba(228, 226, 108, 0.468);
+	resize: both;
+
+}
