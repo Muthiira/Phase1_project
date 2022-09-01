@@ -17,3 +17,9 @@ body {
 	/* border: 30px solid black;  */
 
 }
+
+.image-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
