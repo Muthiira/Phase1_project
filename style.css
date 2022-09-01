@@ -145,3 +145,46 @@ body {
 #radio5:checked~.first {
 	margin-left: -80%;
 }
+
+/* css for automatic navigation */
+.navigation-auto {
+	position: absolute;
+	width: 500px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+/* .navigation-auto div {
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+
+} */
+
+.navigation-auto:not(:last-child) {
+	margin-right: 20px;
+}
+
+#radio1:checked~.navigation-auto .auto1 {
+	background: black;
+}
+
+#radio2:checked~.navigation-auto .auto2 {
+	background: black;
+}
+
+#radio3:checked~.navigation-auto .auto3 {
+	background: black;
+}
+
+#radio4:checked~.navigation-auto .auto4 {
+	background: black;
+}
+
+#radio5:checked~.navigation-auto .auto5 {
+	background: black;
+}
+
