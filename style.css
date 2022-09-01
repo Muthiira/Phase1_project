@@ -39,3 +39,11 @@ body {
 	height: 350px;
 	border: 1px solid black;
 }
+
+.title {
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #000000dd;
+}
