@@ -96,3 +96,52 @@ body {
 	width: 500px;
 	height: 300px;
 }
+
+/* css for manual slide navigation */
+.manual-navigation {
+	position: absolute;
+	width: 500px;
+	margin-top: -220px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+
+.manual-btn:not(:last-child) {
+	margin-right: 5px;
+
+}
+
+.manual-btn:hover {
+	background: #000000dd;
+
+}
+
+#radio1:checked~.first {
+	margin-left: 0;
+}
+
+#radio2:checked~.first {
+	margin-left: -20%;
+}
+
+#radio3:checked~.first {
+	margin-left: -40%;
+}
+
+#radio4:checked~.first {
+	margin-left: -60%;
+}
+
+#radio5:checked~.first {
+	margin-left: -80%;
+}
