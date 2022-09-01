@@ -46,4 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log('Content has loaded');
     getImage();});
 
-// 
+// set interval function on slides
+let counter = 1;
+setInterval(function(){
+	document.getElementById('radio' + counter).checked = true;
+	counter++;
+	if (counter > 5) {
+		counter = 1;
+	}
+},5000);
