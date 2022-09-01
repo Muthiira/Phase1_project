@@ -20,3 +20,10 @@ function getImage() {
             console.log(err)
         });
 }
+
+// add like function
+let likes = 0;
+function likeAdd() {
+    likes += 1;
+    document.getElementById("like-count").innerHTML = likes;
+}
