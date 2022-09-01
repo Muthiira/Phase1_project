@@ -27,3 +27,12 @@ function likeAdd() {
     likes += 1;
     document.getElementById("like-count").innerHTML = likes;
 }
+
+// add comment function
+document.getElementById('fact-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const data = Object.fromEntries(new FormData(event.target).entries());
+    console.log(data)
+    document.getElementById('Fact-list').innerHTML += `<li>${data.comment}</li>`;
+    document.getElementById("fact-form").reset();
+})
