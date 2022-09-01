@@ -33,3 +33,9 @@ body {
 	resize: both;
 
 }
+
+.image {
+	width: 498px;
+	height: 350px;
+	border: 1px solid black;
+}
