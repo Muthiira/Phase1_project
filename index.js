@@ -21,6 +21,18 @@ function getImage() {
         });
 }
 
+//fetch background image
+const imageUrl = 'http://placekitten.com/500/700';
+function backgroundImg(){
+	fetch (imageUrl)
+	.then(resp => resp.json())
+	.then(image => {
+		document.getElementById('background-image').src = image.background-image;
+	})
+}
+backgroundImg();
+
+
 // add like function
 let likes = 0;
 function likeAdd() {
@@ -28,7 +40,7 @@ function likeAdd() {
     document.getElementById("like-count").innerHTML = likes;
 }
 
-// add comment function
+// add funFact function
 document.getElementById('fact-form').addEventListener('submit', event => {
     event.preventDefault();
     const data = Object.fromEntries(new FormData(event.target).entries());

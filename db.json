@@ -26,6 +26,46 @@
 		"id": 3,
 		"imageId": 1,
 		"facts": "Cats have 230 bones, while humans only have 206"
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats have the largest eyes relative to their head size of any mammal."
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats rough tongues can lick a bone clean of any shred of meat."
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats are nearsighted"
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats use their long tails to balance themselves when they’re jumping"
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats will refuse an unpalatable food to the point of starvation."
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Female cats can get pregnant when they're only 4 months old!"
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "Cats like to sleep on things that smell like their owners"
+	  },
+	  {
+		"id": 3,
+		"imageId": 1,
+		"facts": "White cats with blue eyes are prone to deafness."
 	  }
 	]
   }
